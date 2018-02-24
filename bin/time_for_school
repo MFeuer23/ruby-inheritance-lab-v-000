@@ -23,4 +23,7 @@ jim = User.new
 jim.first_name = "Jim"
 jim.last_name = "Sellars"
 
-steve.knowledge
+more_knowledge = avi.teach
+steve.learn(more_knowledge)
+
+puts "Steve's knowledge: #{steve.knowledge}"
