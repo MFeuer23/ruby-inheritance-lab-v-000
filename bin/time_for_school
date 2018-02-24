@@ -26,4 +26,16 @@ jim.last_name = "Sellars"
 more_knowledge = avi.teach
 steve.learn(more_knowledge)
 
+mallory = Student.new
+mallory.first_name = "Mallory"
+mallory.last_name = "Feuer"
+
+even_more_knowledge = avi.teach
+mallory.learn(even_more_knowledge)
+
+most_knowledge = avi.teach
+mallory.learn(most_knowledge)
+
+
 puts "Steve's knowledge: #{steve.knowledge}"
+puts "Mallory's knowledge #{mallory.knowledge}"
